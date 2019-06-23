@@ -4,6 +4,7 @@ def power_of_two(x):
     return x != 0 & ((x &(x-1)) == 0)
 
 print("test")
+print("test2")
 
 
 assert power_of_two(0) == False
