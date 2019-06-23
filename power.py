@@ -3,6 +3,8 @@ def power_of_two(x):
     #si x 
     return x != 0 & ((x &(x-1)) == 0)
 
+print("test")
+
 
 assert power_of_two(0) == False
 assert power_of_two(1) == True
